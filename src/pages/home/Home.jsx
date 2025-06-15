@@ -3,6 +3,7 @@ import { getAllProducts } from "../../api/getAllProducts";
 import Products from "../../components/products/Products";
 import CategoryButton from "../../components/categoryButtons/CategoryButton";
 import { useSelector } from "react-redux";
+import Hero from "../../components/Hero";
 
 const Home = () => {
   const activeCategory = useSelector((state) => state.category.value);
@@ -52,7 +53,9 @@ const Home = () => {
 
   return (
     <>
+      <Hero />
       <CategoryButton />
+      <h1 className="text-2xl px-8 font-bold">Products For You</h1>
       <Products products={products} loading={loading} />
     </>
   );

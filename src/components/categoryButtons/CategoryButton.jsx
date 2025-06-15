@@ -34,7 +34,7 @@ const CategoryButton = () => {
   };
 
   return (
-    <div className="flex gap-4 my-6 mx-6">
+    <div className="flex gap-4 flex-wrap my-6 mx-6">
       <button
         className={`${
           active === "All" ? "bg-green-900 text-white" : "bg-white text-black"

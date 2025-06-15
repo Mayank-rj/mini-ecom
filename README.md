@@ -4,13 +4,13 @@ This is a mini e-commerce website developed as an assessment task.
 
 ## Tech Stack
 
-**React.js**
-**React Router**
-**Fake Store API**
-**Axios**
-**React Redux** 
-**Tailwind CSS**
-**React Icons**
+- **React.js**
+- **React Router**
+- **Fake Store API**
+- **Axios**
+- **React Redux** 
+- **Tailwind CSS**
+- **React Icons**
 
 ## Features
 
