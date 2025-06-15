@@ -52,9 +52,9 @@ Developed a simple fully responsive 2-page mini e-commerce website using React a
 
 Clone the repository:
 
-git clone https://github.com/your-username/mini-ecom-app.git
+git clone https://github.com/Mayank-rj/mini-ecom.git
 
-cd mini-ecom-app
+cd mini-ecom
 
 npm install
 
